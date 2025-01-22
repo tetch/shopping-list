@@ -19,17 +19,6 @@ function addItem(e) {
     const button = createButton('remove-item btn-link text-red');
     li.appendChild(button);
 
-    /*
-        <li>
-          Apples
-          <button class="remove-item btn-link text-red">
-            <i class="fa-solid fa-xmark"></i>
-          </button>
-        </li>
-
-    */
-
-
     itemList.appendChild(li);
 }
 
